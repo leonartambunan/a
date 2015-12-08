@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Tue Dec 08 23:36:27 ICT 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0151-8273-83f8-000006c88060 
+on database directory C:\Users\Leonar Tambunan\Pin-POS-Resto\database\derby-single\posdb  with class loader sun.misc.Launcher$AppClassLoader@1e66a917 
+Loaded from file:/C:/Users/Leonar%20Tambunan/Pin-POS-Resto/local-lib/derby-10.8.1.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_45-b18
+user.dir=C:\Users\Leonar Tambunan\Pin-POS-Resto
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

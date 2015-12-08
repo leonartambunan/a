@@ -1,0 +1,1 @@
+java -Duser.language=in -Duser.region=ID -classpath "C:\Users\Leonar Tambunan\Pin-POS-Resto\target\classes;C:\Users\Leonar Tambunan\Pin-POS-Resto\i18n;C:\Users\Leonar Tambunan\Pin-POS-Resto\local-lib\*"  com.pinpos.main.Main
