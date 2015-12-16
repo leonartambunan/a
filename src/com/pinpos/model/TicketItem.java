@@ -142,18 +142,6 @@ public class TicketItem extends BaseTicketItem implements ITicketItem {
         setTotalAmountWithoutModifiers((calculateTotal(false)));
     }
 
-    //	public double calculateSubtotal() {
-    //		double subtotal = NumberUtil.roundToTwoDigit(calculateSubtotal(true));
-    //
-    //		return subtotal;
-    //	}
-    //
-    //	public double calculateSubtotalWithoutModifiers() {
-    //		double subtotalWithoutModifiers = NumberUtil.roundToTwoDigit(calculateSubtotal(false));
-    //
-    //		return subtotalWithoutModifiers;
-    //	}
-
     private double calculateSubtotal(boolean includeModifierPrice) {
         double subTotalAmount = (getUnitPrice() * getItemCount());
 

@@ -1,6 +1,5 @@
 package com.pinpos.report;
 
-import com.pinpos.POSConstants;
 import com.pinpos.main.Application;
 import com.pinpos.util.NumberUtil;
 
@@ -11,11 +10,14 @@ public class SalesReportModel extends AbstractTableModel {
 
 	private String currencySymbol;
 	
-	private String[] columnNames = {POSConstants.NAME,
+	private String[] columnNames = {
+			"Name",
             "Price",
             "QTY",
             "Tax",
-            POSConstants.TOTAL};
+            "Total",
+            "DiscountAmount"
+	};
 	private List<ReportItem> items;
 	private double grandTotal;
 	
@@ -49,16 +51,16 @@ public class SalesReportModel extends AbstractTableModel {
 				return item.getName();
 				
 			case 1:
-				return currencySymbol + " " + NumberUtil.formatToCurrency(item.getPrice());
+				return NumberUtil.formatToCurrency(item.getPrice());
 				
 			case 2:
 				return String.valueOf(item.getQuantity());
 				
 			case 3:
 				return String.valueOf(item.getTaxRate()) + "%";
-				
+
 			case 4:
-				return currencySymbol + " " + NumberUtil.formatToCurrency(item.getTotal());
+				return NumberUtil.formatToCurrency(item.getTotal());
 		}
 		
 		

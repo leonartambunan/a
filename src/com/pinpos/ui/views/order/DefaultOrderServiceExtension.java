@@ -39,16 +39,11 @@ public class DefaultOrderServiceExtension implements OrderServiceExtension {
 			throw new TicketAlreadyExistsException(ticket);
 		}
 
-		int numberOfGuests = -1;
-		//int numberOfGuests = PosGuiUtil.captureGuestNumber();
-		//if (numberOfGuests == -1) {
-		//	return;
-		//}
+		int numberOfGuests = 1;
 
 		Application application = Application.getInstance();
 
 		ticket = new Ticket();
-//		ticket.setPriceIncludesTax(application.isPriceIncludesTax());
 		ticket.setTicketType(ticketType);
 		ticket.setTableNumber(tableNumber);
 		ticket.setNumberOfGuests(numberOfGuests);

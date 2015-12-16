@@ -107,7 +107,11 @@ public class GroupExplorer extends TransparentPanel {
 	}
 
 	class GroupExplorerTableModel extends AbstractTableModel {
-		String[] columnNames = { POSConstants.ID, POSConstants.NAME, POSConstants.VISIBLE, POSConstants.MENU_CATEGORY };
+		String[] columnNames = {
+				POSConstants.ID,
+				POSConstants.NAME,
+				POSConstants.VISIBLE,
+				POSConstants.MENU_CATEGORY };
 
 		public int getRowCount() {
 			if (groupList == null) {

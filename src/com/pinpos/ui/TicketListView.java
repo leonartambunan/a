@@ -96,7 +96,7 @@ public class TicketListView extends JPanel {
 	private class TicketListTableModel extends ListTableModel {
 		public TicketListTableModel() {
 			super(new String[] { POSConstants.ID, POSConstants.TABLE, POSConstants.SERVER, POSConstants.CREATED, POSConstants.CUSTOMER,
-					POSConstants.TICKET_DELIVERY_DATE, POSConstants.TICKET_TYPE, "STATUS", POSConstants.TOTAL, POSConstants.DUE });
+					POSConstants.TICKET_DELIVERY_DATE, POSConstants.TICKET_TYPE, "STATUS", POSConstants.TOTAL.toUpperCase(), POSConstants.DUE });
 		}
 
 		public Object getValueAt(int rowIndex, int columnIndex) {

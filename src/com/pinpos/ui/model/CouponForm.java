@@ -13,13 +13,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Date;
 
-/**
- * Created by IntelliJ IDEA.
- * User: mshahriar
- * Date: Oct 5, 2006
- * Time: 1:18:01 AM
- * To change this template use File | Settings | File Templates.
- */
 public class CouponForm extends BeanEditor {
     private JPanel contentPane;
     private JTextField tfCouponName;

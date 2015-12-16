@@ -1,6 +1,7 @@
 package com.pinpos.ui.dialog;
 
 import com.pinpos.Messages;
+import com.pinpos.POSConstants;
 import com.pinpos.main.Application;
 import com.pinpos.model.Ticket;
 import com.pinpos.print.PosPrintService;
@@ -68,7 +69,7 @@ public class TransactionCompletionDialog extends POSDialog {
 		add(lblChangeDue, "span, grow");
 		
 		add(new JSeparator(), "sg mygroup,newline,span,grow");
-		PosButton btnClose = new PosButton("CLOSE");
+		PosButton btnClose = new PosButton(POSConstants.CLOSE.toUpperCase());
 		btnClose.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {

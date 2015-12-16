@@ -31,8 +31,10 @@ public class SalesDetailReportView extends JPanel {
 	private SimpleDateFormat fullDateFormatter = new SimpleDateFormat("dd MMM yyyy, hh:mm a");
 	private SimpleDateFormat shortDateFormatter = new SimpleDateFormat("dd MMM yyyy ");
 	
-	private JXDatePicker fromDatePicker = UiUtil.getCurrentMonthStart();
-	private JXDatePicker toDatePicker = UiUtil.getCurrentMonthEnd();
+//	private JXDatePicker fromDatePicker = UiUtil.getCurrentMonthStart();
+	private JXDatePicker fromDatePicker = UiUtil.getCurrentDate();
+//	private JXDatePicker toDatePicker = UiUtil.getCurrentMonthEnd();
+	private JXDatePicker toDatePicker = UiUtil.getCurrentDate();
 	private JButton btnGo = new JButton(com.pinpos.POSConstants.GO);
 	private JPanel reportContainer;
 	

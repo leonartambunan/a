@@ -32,7 +32,7 @@
 	<parameter name="restaurantName" isForPrompting="false" class="java.lang.String"/>
 	<parameter name="subtotal" isForPrompting="false" class="java.lang.String"/>
 	<parameter name="discount" isForPrompting="false" class="java.lang.String"/>
-	<parameter name="tax" isForPrompting="false" class="java.lang.String"/>
+	<parameter name="taxAmount" isForPrompting="false" class="java.lang.String"/>
 	<parameter name="total" isForPrompting="false" class="java.lang.String"/>
 
 	<field name="itemQuantity" class="java.lang.Integer"/>
@@ -150,7 +150,7 @@
 					<textElement textAlignment="Right">
 						<font/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$P{tax}]]></textFieldExpression>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{taxAmount}]]></textFieldExpression>
 				</textField>
 				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
 					<reportElement

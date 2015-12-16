@@ -41,13 +41,13 @@ public class PosWindow extends JFrame implements WindowListener {
         if (AppConfig.getBannerEnabled()) {
             bannerLabel = new JXLabel("");
             getContentPane().add(bannerLabel,BorderLayout.SOUTH);
-//            statusBar = new JXLabel(new javax.swing.ImageIcon(getClass().getResource("/images/bank_logo.png")), JTextField.LEFT);
+//            statusBar = new JXLabel(new javax.swing.ImageIcon(getClass().getResource("/images/footer_banner.png")), JTextField.LEFT);
 
             File f = new File(AppConfig.getBannerIcon());
             if (f.exists()) {
                 statusBar = new JXLabel(new javax.swing.ImageIcon(AppConfig.getBannerIcon()), JTextField.LEFT);
             } else {
-                statusBar = new JXLabel(new javax.swing.ImageIcon(getClass().getResource("/images/bank_logo.png")), JTextField.LEFT);
+                statusBar = new JXLabel(new javax.swing.ImageIcon(getClass().getResource("/images/footer_banner.png")), JTextField.LEFT);
             }
             getContentPane().add(statusBar, BorderLayout.SOUTH);
             statusLabel = new JLabel("");

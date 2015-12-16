@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 public class PayrollReportModel extends ListTableModel {
 	SimpleDateFormat dateFormat2 = new SimpleDateFormat("dd-MMM-yyyy hh:mm a");
 
-	DecimalFormat rateFormat = new DecimalFormat("0.00");
+	//DecimalFormat rateFormat = new DecimalFormat("0.00");
 
 	public PayrollReportModel() {
 		super(new String[] { "userID", "userName", "from", "to", "total", "rate", "payment", "userSSN" });

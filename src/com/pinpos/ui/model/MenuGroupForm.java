@@ -1,14 +1,10 @@
-/*
- * FoodGroupEditor.java
- *
- * Created on August 2, 2006, 8:55 PM
- */
 
 package com.pinpos.ui.model;
 
 import java.awt.Frame;
 import java.util.List;
 
+import com.pinpos.Messages;
 import com.pinpos.model.MenuCategory;
 import com.pinpos.model.MenuGroup;
 import com.pinpos.model.dao.MenuCategoryDAO;
@@ -20,10 +16,6 @@ import com.pinpos.ui.BeanEditor;
 import com.pinpos.ui.dialog.BeanEditorDialog;
 import com.pinpos.util.POSUtil;
 
-/**
- *
- * @author  MShahriar
- */
 public class MenuGroupForm extends BeanEditor {
     
     /** Creates new form FoodGroupEditor */
@@ -57,11 +49,11 @@ public class MenuGroupForm extends BeanEditor {
         chkVisible = new javax.swing.JCheckBox();
         btnNewCategory = new javax.swing.JButton();
 
-        jLabel1.setText(com.pinpos.POSConstants.NAME + ":");
+        jLabel1.setText(Messages.getString("Name") + ":");
 
         jLabel2.setText(com.pinpos.POSConstants.CATEGORY + ":");
 
-        chkVisible.setText(com.pinpos.POSConstants.VISIBLE);
+        chkVisible.setText(Messages.getString("Visible"));
         chkVisible.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
         chkVisible.setMargin(new java.awt.Insets(0, 0, 0, 0));
 

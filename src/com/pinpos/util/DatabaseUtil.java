@@ -1,5 +1,6 @@
 package com.pinpos.util;
 
+import com.pinpos.Messages;
 import com.pinpos.model.*;
 import com.pinpos.model.dao.*;
 import org.apache.commons.logging.Log;
@@ -105,7 +106,7 @@ public class DatabaseUtil {
 			dao.saveOrUpdate(u);
 
 			MenuCategory category = new MenuCategory();
-			category.setName(com.pinpos.POSConstants.BEVERAGE);
+			category.setName(Messages.getString("Beverage"));
 			category.setBeverage(Boolean.TRUE);
 			category.setVisible(Boolean.TRUE);
 			MenuCategoryDAO.getInstance().saveOrUpdate(category);
@@ -118,7 +119,7 @@ public class DatabaseUtil {
 
 			MenuGroup group1 = new MenuGroup();
 			group1.setParent(category);
-			group1.setName("MINUMAN RINGAN");
+			group1.setName(Messages.getString("Beverage"));
 			group1.setVisible(Boolean.TRUE);
 			MenuGroupDAO.getInstance().save(group1);
 
@@ -196,17 +197,4 @@ public class DatabaseUtil {
 
 	}
 
-//	public static void main(String[] args) throws Exception {
-//		initialize();
-//
-//		List<PosTransaction> findAll = PosTransactionDAO.getInstance().findAll();
-//		for (PosTransaction posTransaction : findAll) {
-//			PosTransactionDAO.getInstance().delete(posTransaction);
-//		}
-//
-//		List<Ticket> list = TicketDAO.getInstance().findAll();
-//		for (Ticket ticket : list) {
-//			TicketDAO.getInstance().delete(ticket);
-//		}
-//	}
 }

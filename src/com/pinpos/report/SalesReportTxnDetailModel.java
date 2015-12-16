@@ -18,7 +18,7 @@ public class SalesReportTxnDetailModel extends AbstractTableModel {
             "Price",
             "QTY",
             "Tax",
-            POSConstants.TOTAL};
+            "Total"};
 	private List<TxnDetailReportItem> items;
 	private double grandTotal;
 

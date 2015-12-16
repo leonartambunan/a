@@ -19,10 +19,12 @@ public class ConfirmPayDialog extends POSDialog {
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setSize(400, 300);
 		setResizable(false);
-		
 		createUI();
 	}
 	private void createUI() {
+
+		setTitle(POSConstants.PAYMENT_CONFIRMATION);
+
 		JPanel panel = new JPanel();
 		getContentPane().add(panel, BorderLayout.SOUTH);
 		panel.setLayout(new BorderLayout(0, 0));
@@ -56,9 +58,9 @@ public class ConfirmPayDialog extends POSDialog {
         psbtnCancel.setForeground(Color.DARK_GRAY);
 		panel_1.add(psbtnCancel);
 		
-		TitlePanel titlePanel = new TitlePanel();
-		titlePanel.setTitle(POSConstants.PAYMENT_CONFIRMATION);
-		getContentPane().add(titlePanel, BorderLayout.NORTH);
+		//TitlePanel titlePanel = new TitlePanel();
+		//titlePanel.setTitle(POSConstants.PAYMENT_CONFIRMATION);
+		//getContentPane().add(titlePanel, BorderLayout.NORTH);
 		
 		lblInfo = new JLabel("");
 		lblInfo.setBorder(new EmptyBorder(10, 10, 30, 30));

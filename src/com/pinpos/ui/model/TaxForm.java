@@ -6,6 +6,7 @@
 
 package com.pinpos.ui.model;
 
+import com.pinpos.Messages;
 import com.pinpos.model.Tax;
 import com.pinpos.model.dao.TaxDAO;
 import com.pinpos.swing.MessageDialog;
@@ -42,9 +43,9 @@ public class TaxForm extends BeanEditor {
         tfRate = new javax.swing.JFormattedTextField();
         jLabel3 = new javax.swing.JLabel();
 
-        jLabel1.setText(com.pinpos.POSConstants.NAME + ":");
+        jLabel1.setText(Messages.getString("Name") + ":");
 
-        jLabel2.setText(com.pinpos.POSConstants.RATE + ":");
+        jLabel2.setText(Messages.getString("Rate") + ":");
 
         tfRate.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 

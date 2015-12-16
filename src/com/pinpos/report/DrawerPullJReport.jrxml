@@ -159,7 +159,7 @@
 	<title>
 		<band height="20" splitType="Stretch">
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="ddc2693c-7c92-4c8b-bf4c-a9a88a8e9aff" key="textField-12" x="0" y="0" width="223" height="18" isRemoveLineWhenBlank="true"/>
+				<reportElement key="textField-12" x="0" y="0" width="223" height="18" isRemoveLineWhenBlank="true" uuid="ddc2693c-7c92-4c8b-bf4c-a9a88a8e9aff"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -182,7 +182,7 @@
 	<detail>
 		<band height="498" splitType="Stretch">
 			<staticText>
-				<reportElement uuid="6b238d9b-2781-4950-943d-7c41f9d5535a" key="staticText-1" x="0" y="7" width="224" height="15"/>
+				<reportElement key="staticText-1" x="0" y="7" width="224" height="15" uuid="6b238d9b-2781-4950-943d-7c41f9d5535a"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -195,7 +195,7 @@
 				<text><![CDATA[POSISI PENJUALAN]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="462a5dfe-18ca-4a8c-86a7-ece9ed225a38" key="staticText-2" x="0" y="27" width="120" height="15"/>
+				<reportElement key="staticText-2" x="0" y="27" width="120" height="15" uuid="462a5dfe-18ca-4a8c-86a7-ece9ed225a38"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -208,7 +208,7 @@
 				<text><![CDATA[PENJUALAN BERSIH]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="befeb0a3-b69f-45ba-9da0-f23f39877220" key="staticText-3" x="0" y="72" width="120" height="15"/>
+				<reportElement key="staticText-3" x="0" y="72" width="120" height="15" uuid="befeb0a3-b69f-45ba-9da0-f23f39877220"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -221,7 +221,7 @@
 				<text><![CDATA[+TIPS DICHARGED]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="bd74bea2-1c14-42c2-b17b-c33ecbbebc2e" key="staticText-4" x="0" y="57" width="120" height="15"/>
+				<reportElement key="staticText-4" x="0" y="57" width="120" height="15" uuid="bd74bea2-1c14-42c2-b17b-c33ecbbebc2e"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -234,7 +234,7 @@
 				<text><![CDATA[=TOTAL REVENUE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="0b2d1bab-400b-4c79-916f-702e074a6a2e" key="staticText-5" x="0" y="42" width="120" height="15"/>
+				<reportElement key="staticText-5" x="0" y="42" width="120" height="15" uuid="0b2d1bab-400b-4c79-916f-702e074a6a2e"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -247,13 +247,13 @@
 				<text><![CDATA[+PPN]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="e28be92c-5a94-4a09-bb46-a3ff70a11cae" key="line-1" x="0" y="88" width="224" height="1"/>
+				<reportElement key="line-1" x="0" y="88" width="224" height="1" uuid="e28be92c-5a94-4a09-bb46-a3ff70a11cae"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineStyle="Solid"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement uuid="29a44512-5f22-4563-abb0-e350cbadafb1" key="staticText-6" x="0" y="90" width="120" height="15"/>
+				<reportElement key="staticText-6" x="0" y="90" width="120" height="15" uuid="29a44512-5f22-4563-abb0-e350cbadafb1"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -266,7 +266,7 @@
 				<text><![CDATA[=PENERIMAAN KOTOR]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="acd0ec3e-8e31-49a8-a733-89edc018f6e4" key="staticText-7" x="0" y="112" width="120" height="15"/>
+				<reportElement key="staticText-7" x="0" y="112" width="120" height="15" uuid="acd0ec3e-8e31-49a8-a733-89edc018f6e4"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -279,7 +279,7 @@
 				<text><![CDATA[-PENERIMAAN TUNAI]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="93acf20f-7dab-4689-9234-cba6445ead0e" key="staticText-9" x="0" y="142" width="120" height="15"/>
+				<reportElement key="staticText-9" x="0" y="142" width="120" height="15" uuid="93acf20f-7dab-4689-9234-cba6445ead0e"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -292,7 +292,7 @@
 				<text><![CDATA[-KARTU DEBIT]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="5fd16947-f0c2-4d07-8b9b-18acf12ccb6b" key="staticText-10" x="0" y="127" width="120" height="15"/>
+				<reportElement key="staticText-10" x="0" y="127" width="120" height="15" uuid="5fd16947-f0c2-4d07-8b9b-18acf12ccb6b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -305,7 +305,7 @@
 				<text><![CDATA[-KARTU KREDIT]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="945df557-4523-4d81-bb54-c6267679e5fe" key="staticText-8" x="0" y="157" width="120" height="15"/>
+				<reportElement key="staticText-8" x="0" y="157" width="120" height="15" uuid="945df557-4523-4d81-bb54-c6267679e5fe"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -318,7 +318,7 @@
 				<text><![CDATA[-GIFT]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="69454e1a-085e-4f5f-9a41-777f842c043d" key="staticText-12" x="0" y="172" width="120" height="15"/>
+				<reportElement key="staticText-12" x="0" y="172" width="120" height="15" uuid="69454e1a-085e-4f5f-9a41-777f842c043d"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -331,7 +331,7 @@
 				<text><![CDATA[+GIFT CERT.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="317775d2-eee3-4327-9d31-c11ee88e6e55" key="staticText-14" x="0" y="187" width="120" height="15"/>
+				<reportElement key="staticText-14" x="0" y="187" width="120" height="15" uuid="317775d2-eee3-4327-9d31-c11ee88e6e55"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -344,13 +344,13 @@
 				<text><![CDATA[+CASH BACK]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="febf7a7c-ca3f-4f26-8501-e0ad5a54d2fd" key="line-3" x="0" y="202" width="224" height="1"/>
+				<reportElement key="line-3" x="0" y="202" width="224" height="1" uuid="febf7a7c-ca3f-4f26-8501-e0ad5a54d2fd"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineStyle="Solid"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement uuid="fd87531f-ce94-4d3c-a1a6-4ee7048eb19c" key="staticText-15" x="-1" y="204" width="120" height="15"/>
+				<reportElement key="staticText-15" x="-1" y="204" width="120" height="15" uuid="fd87531f-ce94-4d3c-a1a6-4ee7048eb19c"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -363,7 +363,7 @@
 				<text><![CDATA[=BEDA PENERIMAAN]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="e4fa0673-49df-4b4a-87e4-32f6d23a6555" key="staticText-16" x="0" y="226" width="120" height="15"/>
+				<reportElement key="staticText-16" x="0" y="226" width="120" height="15" uuid="e4fa0673-49df-4b4a-87e4-32f6d23a6555"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -376,7 +376,7 @@
 				<text><![CDATA[+TIPS TERKUMPUL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="718adc44-1cee-4ce8-942c-a766a5ed0734" key="staticText-17" x="0" y="241" width="120" height="15"/>
+				<reportElement key="staticText-17" x="0" y="241" width="120" height="15" uuid="718adc44-1cee-4ce8-942c-a766a5ed0734"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -389,13 +389,13 @@
 				<text><![CDATA[-TIPS DIBAYAR]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="418ff851-a5c1-4da6-89ed-e61ebf0d44c8" key="line-4" x="0" y="256" width="224" height="1"/>
+				<reportElement key="line-4" x="0" y="256" width="224" height="1" uuid="418ff851-a5c1-4da6-89ed-e61ebf0d44c8"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineStyle="Solid"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement uuid="45dff43f-7b53-475d-8700-016b2b420af4" key="staticText-18" x="-1" y="258" width="120" height="15"/>
+				<reportElement key="staticText-18" x="-1" y="258" width="120" height="15" uuid="45dff43f-7b53-475d-8700-016b2b420af4"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -408,7 +408,7 @@
 				<text><![CDATA[=PERBEDAAN TIPS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="bcebeb2c-c6e9-4db6-b808-d02598bfdb2a" key="staticText-19" x="0" y="437" width="224" height="15"/>
+				<reportElement key="staticText-19" x="0" y="437" width="224" height="15" uuid="bcebeb2c-c6e9-4db6-b808-d02598bfdb2a"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -421,7 +421,7 @@
 				<text><![CDATA[PENGECUALIAN]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="cad02d2a-2023-4575-90c0-0e0dbedd3d71" key="staticText-20" x="0" y="302" width="120" height="15"/>
+				<reportElement key="staticText-20" x="0" y="302" width="120" height="15" uuid="cad02d2a-2023-4575-90c0-0e0dbedd3d71"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -434,7 +434,7 @@
 				<text><![CDATA[   KAS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="47f54788-27e6-4cc4-a541-1693e621f731" key="staticText-21" x="0" y="347" width="120" height="15"/>
+				<reportElement key="staticText-21" x="0" y="347" width="120" height="15" uuid="47f54788-27e6-4cc4-a541-1693e621f731"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -447,7 +447,7 @@
 				<text><![CDATA[-CASH BACK]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="05f88f12-39a9-4209-8ff5-1c8d25040023" key="staticText-22" x="0" y="332" width="120" height="15"/>
+				<reportElement key="staticText-22" x="0" y="332" width="120" height="15" uuid="05f88f12-39a9-4209-8ff5-1c8d25040023"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -460,7 +460,7 @@
 				<text><![CDATA[-PENARIKAN CASH]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="b95efe41-cd20-4928-b1e5-407da7cc74c7" key="staticText-23" x="0" y="317" width="120" height="15"/>
+				<reportElement key="staticText-23" x="0" y="317" width="120" height="15" uuid="b95efe41-cd20-4928-b1e5-407da7cc74c7"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -473,13 +473,13 @@
 				<text><![CDATA[-TIPS SDH DIBAYAR]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="54853126-acf6-42e9-ab38-dc1ffc4615c7" key="line-5" x="0" y="392" width="224" height="1"/>
+				<reportElement key="line-5" x="0" y="392" width="224" height="1" uuid="54853126-acf6-42e9-ab38-dc1ffc4615c7"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineStyle="Solid"/>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement uuid="11b59395-4593-4b01-a311-c14001d06532" key="staticText-24" x="-1" y="362" width="120" height="15"/>
+				<reportElement key="staticText-24" x="-1" y="362" width="120" height="15" uuid="11b59395-4593-4b01-a311-c14001d06532"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -492,7 +492,7 @@
 				<text><![CDATA[+KAS AWAL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="46cc00de-0967-40c2-ab1e-537815fa8272" key="staticText-25" x="0" y="394" width="120" height="15"/>
+				<reportElement key="staticText-25" x="0" y="394" width="120" height="15" uuid="46cc00de-0967-40c2-ab1e-537815fa8272"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -505,7 +505,7 @@
 				<text><![CDATA[=DRAWER ACCOUNTABLE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="36980909-ce73-4a15-ba10-2bafe4d44c5a" key="staticText-26" x="0" y="377" width="120" height="15"/>
+				<reportElement key="staticText-26" x="0" y="377" width="120" height="15" uuid="36980909-ce73-4a15-ba10-2bafe4d44c5a"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -518,7 +518,7 @@
 				<text><![CDATA[-DRAWER BLEED]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="f6e68e2b-374b-4dec-8336-5ac737052b98" key="staticText-27" x="0" y="409" width="120" height="15"/>
+				<reportElement key="staticText-27" x="0" y="409" width="120" height="15" uuid="f6e68e2b-374b-4dec-8336-5ac737052b98"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -531,7 +531,7 @@
 				<text><![CDATA[>CASH TO DEPOSIT]]></text>
 			</staticText>
 			<subreport>
-				<reportElement uuid="7f9317c5-e4ba-41f8-b306-c614ce231b49" x="0" y="456" width="224" height="38"/>
+				<reportElement x="0" y="456" width="224" height="38" uuid="7f9317c5-e4ba-41f8-b306-c614ce231b49"/>
 				<subreportParameter name="totalVoid">
 					<subreportParameterExpression><![CDATA[$P{totalVoid}]]></subreportParameterExpression>
 				</subreportParameter>
@@ -539,112 +539,112 @@
 				<subreportExpression><![CDATA[$P{subreportParameter}]]></subreportExpression>
 			</subreport>
 			<textField>
-				<reportElement uuid="7218adcf-4667-4e23-b467-9c6eef32c69f" x="123" y="27" width="100" height="15"/>
+				<reportElement x="123" y="27" width="100" height="15" uuid="7218adcf-4667-4e23-b467-9c6eef32c69f"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{netSales})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="100dc84c-ff25-4f87-b2f1-d78a9c90cae9" x="123" y="42" width="100" height="15"/>
+				<reportElement x="123" y="42" width="100" height="15" uuid="100dc84c-ff25-4f87-b2f1-d78a9c90cae9"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{salesTax})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="4915b421-0fc3-4d9a-94d4-f4dee1c207d4" x="123" y="57" width="100" height="15"/>
+				<reportElement x="123" y="57" width="100" height="15" uuid="4915b421-0fc3-4d9a-94d4-f4dee1c207d4"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{totalRevenue})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="f6536749-9b6d-4ca8-a99e-951803d4446c" x="123" y="72" width="100" height="15"/>
+				<reportElement x="123" y="72" width="100" height="15" uuid="f6536749-9b6d-4ca8-a99e-951803d4446c"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{chargedTips})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="091ec10a-a264-4d87-8d7b-9fef183d457a" x="123" y="90" width="100" height="15"/>
+				<reportElement x="123" y="90" width="100" height="15" uuid="091ec10a-a264-4d87-8d7b-9fef183d457a"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{grossReceipts})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="df08ee5a-ddeb-45db-98ca-8371ff8a320b" x="123" y="112" width="100" height="15"/>
+				<reportElement x="123" y="112" width="100" height="15" uuid="df08ee5a-ddeb-45db-98ca-8371ff8a320b"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{cashReceiptAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="c35579a2-b9bc-40fa-ba3f-8735287cb4f7" x="123" y="127" width="100" height="15"/>
+				<reportElement x="123" y="127" width="100" height="15" uuid="c35579a2-b9bc-40fa-ba3f-8735287cb4f7"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{creditCardReceiptAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="9ee62ad2-b5cf-4c47-b676-e2238edfe0f2" x="123" y="142" width="100" height="15"/>
+				<reportElement x="123" y="142" width="100" height="15" uuid="9ee62ad2-b5cf-4c47-b676-e2238edfe0f2"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{debitCardReceiptAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="ff906e68-472c-4bc9-99b7-75df138495ba" x="123" y="172" width="100" height="15"/>
+				<reportElement x="123" y="172" width="100" height="15" uuid="ff906e68-472c-4bc9-99b7-75df138495ba"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{giftCertChangeAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="3ce20476-b24f-4fb6-8bfb-b71ebc374a28" x="123" y="157" width="100" height="15"/>
+				<reportElement x="123" y="157" width="100" height="15" uuid="3ce20476-b24f-4fb6-8bfb-b71ebc374a28"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{giftCertReturnAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="ac7a56ad-7645-42ec-946b-c31000a43ccb" x="123" y="187" width="100" height="15"/>
+				<reportElement x="123" y="187" width="100" height="15" uuid="ac7a56ad-7645-42ec-946b-c31000a43ccb"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{cashBack})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="25ea1b6e-9ee3-442f-bf13-d9ea6d1f069d" x="123" y="204" width="100" height="15"/>
+				<reportElement x="123" y="204" width="100" height="15" uuid="25ea1b6e-9ee3-442f-bf13-d9ea6d1f069d"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{receiptDifferential})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="d0915be5-0ddc-43b8-8e34-858f96efafcf" x="123" y="226" width="100" height="15"/>
+				<reportElement x="123" y="226" width="100" height="15" uuid="d0915be5-0ddc-43b8-8e34-858f96efafcf"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{chargedTips})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="232afc9e-f9b4-4819-96c8-357b11ad43b1" x="123" y="241" width="100" height="15"/>
+				<reportElement x="123" y="241" width="100" height="15" uuid="232afc9e-f9b4-4819-96c8-357b11ad43b1"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{tipsPaid})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="70acdfb3-a841-46d6-a412-ad86b918892b" x="123" y="258" width="100" height="15"/>
+				<reportElement x="123" y="258" width="100" height="15" uuid="70acdfb3-a841-46d6-a412-ad86b918892b"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{tipsDifferential})]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="afc644b3-b2f0-4ea6-835e-2cf2b741c861" key="staticText-1" x="-1" y="280" width="224" height="15"/>
+				<reportElement key="staticText-1" x="-1" y="280" width="224" height="15" uuid="afc644b3-b2f0-4ea6-835e-2cf2b741c861"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -657,56 +657,56 @@
 				<text><![CDATA[POSISI KAS]]></text>
 			</staticText>
 			<textField>
-				<reportElement uuid="785febc8-9e90-409a-a6dd-2cbba6bcc74f" x="123" y="302" width="100" height="15"/>
+				<reportElement x="123" y="302" width="100" height="15" uuid="785febc8-9e90-409a-a6dd-2cbba6bcc74f"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{cashReceiptAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="1df80e21-1167-460c-94fd-2793a098fade" x="123" y="317" width="100" height="15"/>
+				<reportElement x="123" y="317" width="100" height="15" uuid="1df80e21-1167-460c-94fd-2793a098fade"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{tipsPaid})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="7221ef4e-e1c6-4117-853d-501d5b32a569" x="123" y="332" width="100" height="15"/>
+				<reportElement x="123" y="332" width="100" height="15" uuid="7221ef4e-e1c6-4117-853d-501d5b32a569"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{payOutAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="b52968fb-8c2e-4ada-9c61-703fd1574beb" x="123" y="347" width="100" height="15"/>
+				<reportElement x="123" y="347" width="100" height="15" uuid="b52968fb-8c2e-4ada-9c61-703fd1574beb"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{cashBack})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="e3e20626-62bd-4183-9f1b-29e6fb9ab6aa" x="123" y="362" width="100" height="15"/>
+				<reportElement x="123" y="362" width="100" height="15" uuid="e3e20626-62bd-4183-9f1b-29e6fb9ab6aa"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{beginCash})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="6ec29eb6-cc41-48bb-af2e-a27a54fd4460" x="123" y="377" width="100" height="15"/>
+				<reportElement x="123" y="377" width="100" height="15" uuid="6ec29eb6-cc41-48bb-af2e-a27a54fd4460"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{drawerBleedAmount})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="1a2273bc-8859-4061-99ca-4174308813bd" x="123" y="394" width="100" height="15"/>
+				<reportElement x="123" y="394" width="100" height="15" uuid="1a2273bc-8859-4061-99ca-4174308813bd"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.text.DecimalFormat("0.00").format($F{drawerAccountable})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="db7950b1-0558-4250-b7cd-a9ed9c60e03f" x="123" y="409" width="100" height="15"/>
+				<reportElement x="123" y="409" width="100" height="15" uuid="db7950b1-0558-4250-b7cd-a9ed9c60e03f"/>
 				<textElement textAlignment="Right">
 					<font size="9"/>
 				</textElement>

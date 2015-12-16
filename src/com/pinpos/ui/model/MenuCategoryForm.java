@@ -6,6 +6,7 @@
 
 package com.pinpos.ui.model;
 
+import com.pinpos.Messages;
 import com.pinpos.model.MenuCategory;
 import com.pinpos.model.dao.MenuCategoryDAO;
 import com.pinpos.swing.FixedLengthDocument;
@@ -51,13 +52,13 @@ public class MenuCategoryForm extends BeanEditor {
         tfName = new com.pinpos.swing.FixedLengthTextField();
         chkBeverage = new javax.swing.JCheckBox();
 
-        jLabel1.setText(com.pinpos.POSConstants.NAME + ":");
+        jLabel1.setText(Messages.getString("Name") + ":");
 
-        chkVisible.setText(com.pinpos.POSConstants.VISIBLE);
+        chkVisible.setText(Messages.getString("Visible"));
         chkVisible.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
         chkVisible.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        chkBeverage.setText(com.pinpos.POSConstants.BEVERAGE);
+        chkBeverage.setText(Messages.getString("Beverage"));
         chkBeverage.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
         chkBeverage.setMargin(new java.awt.Insets(0, 0, 0, 0));
 

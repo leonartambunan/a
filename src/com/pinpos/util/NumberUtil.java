@@ -2,10 +2,11 @@ package com.pinpos.util;
 
 import java.text.NumberFormat;
 import java.text.ParseException;
+import java.util.Locale;
 
 public class NumberUtil {
-    private final static NumberFormat numberFormat = NumberFormat.getNumberInstance();
-    private final static NumberFormat currencyFormat = NumberFormat.getNumberInstance();
+    private final static NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.getDefault());
+    private final static NumberFormat currencyFormat = NumberFormat.getNumberInstance(Locale.getDefault());
 
     static {
         numberFormat.setMinimumFractionDigits(2);

@@ -19,6 +19,7 @@ public class AppConfig {
     private static final String KITCHEN_PRINT_ON_ORDER_FINISH = "kitchen_print_on_order_finish"; //$NON-NLS-1$
     private static final String PRINT_RECEIPT_ON_ORDER_SETTLE = "print_receipt_on_order_settle"; //$NON-NLS-1$
     private static final String PRINT_RECEIPT_ON_ORDER_FINISH = "print_receipt_on_order_finish"; //$NON-NLS-1$
+    //private static final String COUPON_DEDUCTED_BEFORE_TAX = "coupen_deducted_before_tax";
 
     private static final String LOGO = "logo";
     private static final String LOGO_ENABLED = "logo_enabled";
@@ -319,4 +320,12 @@ public class AppConfig {
     public static void setPrintToKitchenOnOrderSettle(boolean print) {
         config.setProperty(KITCHEN_PRINT_ON_ORDER_SETTLE, print);
     }
+
+    /*public static boolean isCouponDeductedBeforeTax() {
+        return getBoolean(COUPON_DEDUCTED_BEFORE_TAX, true);
+    }
+
+    public static void setCouponDeductedBeforeTax(boolean a) {
+        config.setProperty(COUPON_DEDUCTED_BEFORE_TAX, a);
+    }*/
 }

@@ -1,5 +1,6 @@
 package com.pinpos.ui.model;
 
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.model.MenuItemShift;
 import com.pinpos.model.Shift;
@@ -168,7 +169,7 @@ public class MenuItemShiftDialog extends POSDialog {
         cbShifts = new JComboBox();
         panel3.add(cbShifts, new GridConstraints(0, 1, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         final JLabel label2 = new JLabel();
-        label2.setText(POSConstants.PRICE + ":");
+        label2.setText(Messages.getString("Price")+ ":");
         panel3.add(label2, new GridConstraints(1, 0, 1, 1, GridConstraints.ANCHOR_EAST, GridConstraints.FILL_NONE, GridConstraints.SIZEPOLICY_FIXED, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         tfPrice = new JTextField();
         panel3.add(tfPrice, new GridConstraints(1, 1, 1, 1, GridConstraints.ANCHOR_WEST, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));

@@ -97,7 +97,7 @@ public class OrderController implements OrderListener, CategorySelectionListener
 		//		itemModifier.setExtraPrice(modifier.getExtraPrice());
 		//		itemModifier.setMinQuantity(modifier.getMinQuantity());
 		//		itemModifier.setMaxQuantity(modifier.getMaxQuantity());
-		//		itemModifier.setTaxRate(modifier.getTax() == null ? 0 : modifier.getTax().getRate());
+		//		itemModifier.setTaxRate(modifier.getTaxAmount() == null ? 0 : modifier.getTaxAmount().getRate());
 		//		
 		//		orderView.getTicketView().addModifier(itemModifier);
 	}

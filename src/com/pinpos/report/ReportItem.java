@@ -7,7 +7,7 @@ public class ReportItem {
 	private int quantity;
 	private double taxRate;
 	private double total;
-	
+
 	public ReportItem() {
 		super();
 	}

@@ -6,6 +6,7 @@
 
 package com.pinpos.ui.dialog;
 
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.model.TicketItem;
 
@@ -67,7 +68,7 @@ public class MiscTicketItemDialog extends POSDialog {
         transparentPanel2.setLayout(new java.awt.BorderLayout());
 
         numberSelectionView1.setPreferredSize(new java.awt.Dimension(220, 392));
-        numberSelectionView1.setTitle(POSConstants.PRICE);
+        numberSelectionView1.setTitle(Messages.getString("Price"));
         transparentPanel2.add(numberSelectionView1, java.awt.BorderLayout.WEST);
 
         noteView1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, com.pinpos.POSConstants.ITEM_NAME, javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));

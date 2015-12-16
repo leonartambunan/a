@@ -1,8 +1,3 @@
-/*
- * OpenTicketsListDialog.java
- *
- * Created on September 8, 2006, 12:04 AM
- */
 
 package com.pinpos.ui.dialog;
 
@@ -21,10 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/**
- *
- * @author  MShahriar
- */
 public class OpenTicketsListDialog extends POSDialog {
 	private List<Ticket> openTickets;
 	private OpenTicketListTableModel tableModel;
@@ -310,7 +301,7 @@ public class OpenTicketsListDialog extends POSDialog {
 					return com.pinpos.POSConstants.DATE_TIME;
 
 				case 3:
-					return POSConstants.TOTAL;
+					return "Total";
 			}
 			return null;
 		}

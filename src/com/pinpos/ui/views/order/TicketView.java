@@ -1,8 +1,3 @@
-/*
- * TicketView.java
- *
- * Created on August 4, 2006, 3:42 PM
- */
 
 package com.pinpos.ui.views.order;
 
@@ -36,10 +31,6 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
 
-/**
- *
- * @author  MShahriar
- */
 public class TicketView extends JPanel {
 	private java.util.Vector<OrderListener> orderListeners = new java.util.Vector<OrderListener>();
 	private Ticket ticket;
@@ -132,7 +123,7 @@ public class TicketView extends JPanel {
 
 		jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12));
 		jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-		jLabel1.setText(POSConstants.DISCOUNT + ":");
+		jLabel1.setText(Messages.getString("Discount") + ":");
 		ticketAmountPanel.add(jLabel1, "cell 0 2,growx,aligny center");
 		tfDiscount = new javax.swing.JTextField();
 		tfDiscount.setHorizontalAlignment(SwingConstants.TRAILING);
@@ -169,7 +160,7 @@ public class TicketView extends JPanel {
 
 		jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12));
 		jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-		jLabel6.setText(POSConstants.TOTAL + ":");
+		jLabel6.setText("Total :");
 		ticketAmountPanel.add(jLabel6, "cell 0 5,growx,aligny center");
 		tfTotal = new javax.swing.JTextField();
 		tfTotal.setHorizontalAlignment(SwingConstants.TRAILING);

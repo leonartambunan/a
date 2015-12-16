@@ -21,7 +21,6 @@ public class License implements  ILicense {
 
         if (guid.equalsIgnoreCase(machineId)) {
             machineIdValid = true;
-            System.out.println("machine id is valid");
         }
 
         if (machineIdValid) {

@@ -1,5 +1,6 @@
 package com.pinpos.config.ui;
 
+import com.pinpos.Messages;
 import com.pinpos.config.AppConfig;
 import com.pinpos.main.Application;
 import net.miginfocom.swing.MigLayout;
@@ -14,13 +15,12 @@ public class FeaturesView extends ConfigurationView {
     private JCheckBox cbGroupTicket = new JCheckBox("Bayar Group (Menggabungkan beberapa tiket)");
     private JCheckBox cbSplitTicket = new JCheckBox("Pisah Tiket (Membagi satu tiket menjadi dua tiket)");
     private JCheckBox cbPenarikan = new JCheckBox("Penarikan (Buka register untuk menarik uang untuk tujuan khusus)");
-    private JCheckBox cbManagerial = new JCheckBox("Menu Manajerial");
+    private JCheckBox cbManagerial = new JCheckBox(Messages.getString("Managerial.Menu"));
     private JCheckBox cbEnableAllReport = new JCheckBox("Aktifkan semua laporan");
 
 	public FeaturesView() throws HeadlessException {
 		super();
 		initUI();
-
 	}
 
 	protected void initUI() {
@@ -46,8 +46,6 @@ public class FeaturesView extends ConfigurationView {
         AppConfig.setFeatureSplitTicketFlag(String.valueOf(cbSplitTicket.isSelected()));
         AppConfig.setManagerMenuFlag(String.valueOf(cbManagerial.isSelected()));
         AppConfig.setFeatureEnableAllReportsFlag(String.valueOf(cbEnableAllReport.isSelected()));
-
-//        JOptionPane.showMessageDialog(this, Messages.getString("Requires.RESTART_MESSAGE"));
 
         return true;
 
@@ -77,7 +75,7 @@ public class FeaturesView extends ConfigurationView {
 
 	@Override
 	public String getName() {
-		return "Features";
+		return Messages.getString(CONFIG_TAB_TAX);
 	}
 
 }

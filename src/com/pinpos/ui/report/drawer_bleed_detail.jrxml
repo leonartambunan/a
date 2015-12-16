@@ -23,7 +23,7 @@
 	<title>
 		<band height="30" splitType="Stretch">
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="46527a07-a7ce-433e-9a7d-cfe73f9a14b4" key="textField-8" x="24" y="0" width="190" height="30"/>
+				<reportElement key="textField-8" x="24" y="0" width="190" height="30" uuid="46527a07-a7ce-433e-9a7d-cfe73f9a14b4"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -44,7 +44,7 @@
 		<band height="18" splitType="Stretch">
 			<elementGroup>
 				<staticText>
-					<reportElement uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a" key="staticText-6" mode="Opaque" x="93" y="0" width="113" height="18" forecolor="#000000" backcolor="#FFFFFF"/>
+					<reportElement key="staticText-6" mode="Opaque" x="93" y="0" width="113" height="18" forecolor="#000000" backcolor="#FFFFFF" uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a"/>
 					<box>
 						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
@@ -57,7 +57,7 @@
 					<text><![CDATA[WAKTU]]></text>
 				</staticText>
 				<staticText>
-					<reportElement uuid="6274e04f-8ffe-4032-a846-1f6d9fdcbb19" key="staticText-1" mode="Opaque" x="23" y="0" width="70" height="18" backcolor="#FFFFFF"/>
+					<reportElement key="staticText-1" mode="Opaque" x="23" y="0" width="70" height="18" backcolor="#FFFFFF" uuid="6274e04f-8ffe-4032-a846-1f6d9fdcbb19"/>
 					<box>
 						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
@@ -70,7 +70,7 @@
 					<text><![CDATA[ID]]></text>
 				</staticText>
 				<staticText>
-					<reportElement uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a" key="staticText-6" mode="Opaque" x="206" y="0" width="110" height="18" forecolor="#000000" backcolor="#FFFFFF"/>
+					<reportElement key="staticText-6" mode="Opaque" x="206" y="0" width="110" height="18" forecolor="#000000" backcolor="#FFFFFF" uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a"/>
 					<box>
 						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
@@ -83,7 +83,7 @@
 					<text><![CDATA[USER]]></text>
 				</staticText>
 				<staticText>
-					<reportElement uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a" key="staticText-6" mode="Opaque" x="316" y="0" width="110" height="18" forecolor="#000000" backcolor="#FFFFFF"/>
+					<reportElement key="staticText-6" mode="Opaque" x="316" y="0" width="110" height="18" forecolor="#000000" backcolor="#FFFFFF" uuid="505b98f6-635d-4d8c-bb78-9d9530f9043a"/>
 					<box>
 						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
@@ -102,7 +102,7 @@
 		<band height="18" splitType="Prevent">
 			<elementGroup>
 				<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
-					<reportElement uuid="af0af457-696a-4433-be2d-0c2eda369cc2" key="textField-1" mode="Transparent" x="23" y="0" width="70" height="18"/>
+					<reportElement key="textField-1" mode="Transparent" x="23" y="0" width="70" height="18" uuid="af0af457-696a-4433-be2d-0c2eda369cc2"/>
 					<box leftPadding="5">
 						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
@@ -113,7 +113,7 @@
 					<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
 				</textField>
 				<textField pattern="¤ #,##0.00" isBlankWhenNull="true">
-					<reportElement uuid="6138a337-76ee-47dc-9fc5-7c9554888f30" key="textField-3" mode="Transparent" x="93" y="0" width="113" height="18"/>
+					<reportElement key="textField-3" mode="Transparent" x="93" y="0" width="113" height="18" uuid="6138a337-76ee-47dc-9fc5-7c9554888f30"/>
 					<box rightPadding="5">
 						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -124,7 +124,7 @@
 					<textFieldExpression><![CDATA[$F{TIME}]]></textFieldExpression>
 				</textField>
 				<textField pattern="¤ #,##0.00" isBlankWhenNull="true">
-					<reportElement uuid="6138a337-76ee-47dc-9fc5-7c9554888f30" key="textField-3" mode="Transparent" x="206" y="0" width="110" height="18"/>
+					<reportElement key="textField-3" mode="Transparent" x="206" y="0" width="110" height="18" uuid="6138a337-76ee-47dc-9fc5-7c9554888f30"/>
 					<box rightPadding="5">
 						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -135,7 +135,7 @@
 					<textFieldExpression><![CDATA[$F{USER}]]></textFieldExpression>
 				</textField>
 				<textField pattern="¤ #,##0.00" isBlankWhenNull="true">
-					<reportElement uuid="6138a337-76ee-47dc-9fc5-7c9554888f30" key="textField-3" mode="Transparent" x="316" y="0" width="110" height="18"/>
+					<reportElement key="textField-3" mode="Transparent" x="316" y="0" width="110" height="18" uuid="6138a337-76ee-47dc-9fc5-7c9554888f30"/>
 					<box rightPadding="5">
 						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -151,7 +151,7 @@
 	<columnFooter>
 		<band height="20" splitType="Stretch">
 			<staticText>
-				<reportElement uuid="c07d1c62-8045-4550-abc3-a811bae00758" key="staticText-7" mode="Transparent" x="-35" y="0" width="108" height="20" backcolor="#808080"/>
+				<reportElement key="staticText-7" mode="Transparent" x="-35" y="0" width="108" height="20" backcolor="#808080" uuid="c07d1c62-8045-4550-abc3-a811bae00758"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -164,7 +164,7 @@
 				<text><![CDATA[Total:]]></text>
 			</staticText>
 			<textField pattern="" isBlankWhenNull="true">
-				<reportElement uuid="d2999c31-153a-4359-820d-802c9fdcbe75" key="textField-7" x="89" y="0" width="104" height="20"/>
+				<reportElement key="textField-7" x="89" y="0" width="104" height="20" uuid="d2999c31-153a-4359-820d-802c9fdcbe75"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>

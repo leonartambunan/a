@@ -104,7 +104,10 @@ public class TaxExplorer extends TransparentPanel {
 	}
 	
 	class TaxExplorerTableModel extends AbstractTableModel {
-		String[] columnNames = {POSConstants.ID, POSConstants.NAME, POSConstants.RATE};
+		String[] columnNames = {
+				POSConstants.ID,
+				POSConstants.NAME,
+				POSConstants.RATE};
 		
 		public int getRowCount() {
 			if(taxList == null) {

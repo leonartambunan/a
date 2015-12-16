@@ -7,6 +7,7 @@
 package com.pinpos.ui.views.order;
 
 import com.pinpos.IconFactory;
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.main.Application;
 import com.pinpos.model.Ticket;
@@ -121,7 +122,7 @@ public class TicketForSplitView extends com.pinpos.swing.TransparentPanel implem
 
 		jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12));
 		jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-		jLabel6.setText(POSConstants.TOTAL + ":");
+		jLabel6.setText("Total :");
 		gridBagConstraints = new java.awt.GridBagConstraints();
 		gridBagConstraints.gridx = 0;
 		gridBagConstraints.gridy = 4;
@@ -131,7 +132,7 @@ public class TicketForSplitView extends com.pinpos.swing.TransparentPanel implem
 
 		jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12));
 		jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-		jLabel1.setText(POSConstants.DISCOUNT + ":");
+		jLabel1.setText(Messages.getString("Discount")+ ":");
 		gridBagConstraints = new java.awt.GridBagConstraints();
 		gridBagConstraints.gridx = 0;
 		gridBagConstraints.gridy = 2;

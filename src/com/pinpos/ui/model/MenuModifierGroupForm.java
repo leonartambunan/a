@@ -6,6 +6,7 @@
 
 package com.pinpos.ui.model;
 
+import com.pinpos.Messages;
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 
@@ -46,7 +47,7 @@ public class MenuModifierGroupForm extends BeanEditor {
         jLabel1 = new javax.swing.JLabel();
         tfName = new com.pinpos.swing.FixedLengthTextField();
 
-        jLabel1.setText(com.pinpos.POSConstants.NAME + ":");
+        jLabel1.setText(Messages.getString("Name") + ":");
 
         tfName.setText("fixedLengthTextField1");
 

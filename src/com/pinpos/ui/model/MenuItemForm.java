@@ -261,7 +261,7 @@ public class MenuItemForm extends BeanEditor implements ActionListener, ChangeLi
 
         jLabel5.setText("%");
 
-        chkVisible.setText(com.pinpos.POSConstants.VISIBLE);
+        chkVisible.setText(Messages.getString("Visible"));
         chkVisible.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
         chkVisible.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
@@ -636,7 +636,9 @@ public class MenuItemForm extends BeanEditor implements ActionListener, ChangeLi
 	
 	class ShiftTableModel extends AbstractTableModel {
 		List<MenuItemShift> shifts;
-		String[] cn = {com.pinpos.POSConstants.START_TIME, com.pinpos.POSConstants.END_TIME, POSConstants.PRICE};
+		String[] cn = {
+                com.pinpos.POSConstants.START_TIME, com.pinpos.POSConstants.END_TIME,
+				POSConstants.PRICE};
 		Calendar calendar = Calendar.getInstance();
 		
 		ShiftTableModel(List<MenuItemShift> shifts){

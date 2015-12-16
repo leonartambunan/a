@@ -8,7 +8,6 @@ import org.jdesktop.swingx.JXDatePicker;
 public class UiUtil {
 	public static JXDatePicker getCurrentMonthStart() {
 		Locale locale = Locale.getDefault();
-		
 		Calendar c = Calendar.getInstance(locale);
 		c.set(Calendar.DAY_OF_MONTH, 1);
 

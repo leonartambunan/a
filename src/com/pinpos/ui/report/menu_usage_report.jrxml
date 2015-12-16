@@ -33,7 +33,7 @@
 	<columnHeader>
 		<band height="100" splitType="Stretch">
 			<textField pattern="" isBlankWhenNull="true">
-				<reportElement uuid="a97d3964-7f6c-41e6-82bc-4290d23c6a11" key="textField-1" mode="Transparent" x="128" y="3" width="527" height="20" backcolor="#FFFFFF"/>
+				<reportElement key="textField-1" mode="Transparent" x="128" y="3" width="527" height="20" backcolor="#FFFFFF" uuid="a97d3964-7f6c-41e6-82bc-4290d23c6a11"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -46,7 +46,7 @@
 				<textFieldExpression><![CDATA[$P{reportTitle}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="312ac35b-6f37-4c78-8531-24911ba079ff" key="staticText-1" x="14" y="43" width="62" height="19"/>
+				<reportElement key="staticText-1" x="14" y="43" width="62" height="19" uuid="312ac35b-6f37-4c78-8531-24911ba079ff"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -59,7 +59,7 @@
 				<text><![CDATA[Tgl Laporan:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="false">
-				<reportElement uuid="12372659-8d68-479f-9023-b2ae1331bae5" key="textField-2" x="76" y="43" width="201" height="19"/>
+				<reportElement key="textField-2" x="76" y="43" width="201" height="19" uuid="12372659-8d68-479f-9023-b2ae1331bae5"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -70,7 +70,7 @@
 				<textFieldExpression><![CDATA[$P{reportTime}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="50a32e8d-e283-4370-a7c7-3dd38c0d92a6" key="staticText-2" x="14" y="24" width="62" height="19"/>
+				<reportElement key="staticText-2" x="14" y="24" width="62" height="19" uuid="50a32e8d-e283-4370-a7c7-3dd38c0d92a6"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -83,7 +83,7 @@
 				<text><![CDATA[Dari:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="false">
-				<reportElement uuid="b28fc2a2-ab80-4903-a785-e9e953993382" key="textField-3" x="76" y="24" width="140" height="19"/>
+				<reportElement key="textField-3" x="76" y="24" width="140" height="19" uuid="b28fc2a2-ab80-4903-a785-e9e953993382"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -94,7 +94,7 @@
 				<textFieldExpression><![CDATA[$P{fromDate}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="b4a9ebcc-47f8-4f15-acb5-aef94d04e9ef" key="staticText-3" x="250" y="24" width="40" height="19"/>
+				<reportElement key="staticText-3" x="250" y="24" width="40" height="19" uuid="b4a9ebcc-47f8-4f15-acb5-aef94d04e9ef"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -107,7 +107,7 @@
 				<text><![CDATA[Sampai:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="false">
-				<reportElement uuid="7e97a911-4d0b-4285-92b8-e6f26af4f3b4" key="textField-4" x="303" y="24" width="176" height="19"/>
+				<reportElement key="textField-4" x="303" y="24" width="176" height="19" uuid="7e97a911-4d0b-4285-92b8-e6f26af4f3b4"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -118,7 +118,7 @@
 				<textFieldExpression><![CDATA[$P{toDate}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="073ce8e8-11f3-4523-9fc1-dbe1a8c89a07" key="staticText-4" x="1" y="68" width="114" height="29"/>
+				<reportElement key="staticText-4" x="1" y="68" width="114" height="29" uuid="073ce8e8-11f3-4523-9fc1-dbe1a8c89a07"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -131,7 +131,7 @@
 				<text><![CDATA[Kategori]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="508c7be2-e260-49f9-91ce-a4598f614565" key="staticText-5" x="190" y="68" width="88" height="29"/>
+				<reportElement key="staticText-5" x="190" y="68" width="88" height="29" uuid="508c7be2-e260-49f9-91ce-a4598f614565"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -145,7 +145,7 @@
 Kotor]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="53018c85-9cc9-4002-afd2-9dd0d8b666dc" key="staticText-6" x="117" y="68" width="71" height="29"/>
+				<reportElement key="staticText-6" x="117" y="68" width="71" height="29" uuid="53018c85-9cc9-4002-afd2-9dd0d8b666dc"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -158,7 +158,7 @@ Kotor]]></text>
 				<text><![CDATA[Jlh]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="a50c729f-ce4c-465a-8020-40b7bf0a0e0d" key="staticText-7" x="280" y="68" width="89" height="29"/>
+				<reportElement key="staticText-7" x="280" y="68" width="89" height="29" uuid="a50c729f-ce4c-465a-8020-40b7bf0a0e0d"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -171,7 +171,7 @@ Kotor]]></text>
 				<text><![CDATA[Diskon]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="f0954da3-bd0e-4063-844d-6b42edc3f9f9" key="staticText-8" x="371" y="68" width="90" height="29"/>
+				<reportElement key="staticText-8" x="371" y="68" width="90" height="29" uuid="f0954da3-bd0e-4063-844d-6b42edc3f9f9"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -185,7 +185,7 @@ Kotor]]></text>
 Bersih]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="eb095e3c-17ea-4d0c-974a-87decbe22fd8" key="staticText-9" x="463" y="68" width="87" height="29"/>
+				<reportElement key="staticText-9" x="463" y="68" width="87" height="29" uuid="eb095e3c-17ea-4d0c-974a-87decbe22fd8"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -199,7 +199,7 @@ Bersih]]></text>
 Penjualan]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="e2ab5b6b-8529-431a-a8fb-8574b3637c39" key="staticText-10" x="552" y="68" width="72" height="29"/>
+				<reportElement key="staticText-10" x="552" y="68" width="72" height="29" uuid="e2ab5b6b-8529-431a-a8fb-8574b3637c39"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -212,7 +212,7 @@ Penjualan]]></text>
 				<text><![CDATA[Keuntungan]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="3d2d2426-d579-4cce-b2a1-17ad1e42af2a" key="staticText-11" x="626" y="68" width="70" height="29"/>
+				<reportElement key="staticText-11" x="626" y="68" width="70" height="29" uuid="3d2d2426-d579-4cce-b2a1-17ad1e42af2a"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -225,7 +225,7 @@ Penjualan]]></text>
 				<text><![CDATA[Biaya-%]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="4131b8cd-0506-4210-b758-ed466e8bd89b" key="staticText-12" x="704" y="68" width="69" height="29"/>
+				<reportElement key="staticText-12" x="704" y="68" width="69" height="29" uuid="4131b8cd-0506-4210-b758-ed466e8bd89b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -238,10 +238,10 @@ Penjualan]]></text>
 				<text><![CDATA[[%]]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="19cf1c0b-6947-4970-96a5-e76dfa356c6d" key="line-1" x="1" y="98" width="777" height="1"/>
+				<reportElement key="line-1" x="1" y="98" width="777" height="1" uuid="19cf1c0b-6947-4970-96a5-e76dfa356c6d"/>
 			</line>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="44fde445-7193-4104-ab5d-d2eda2585319" key="textField-14" x="745" y="3" width="35" height="15"/>
+				<reportElement key="textField-14" x="745" y="3" width="35" height="15" uuid="44fde445-7193-4104-ab5d-d2eda2585319"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -252,14 +252,13 @@ Penjualan]]></text>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement uuid="d49f3d7e-7453-4759-a65d-f6c04844f86c" key="staticText-13" x="696" y="3" width="50" height="15"/>
+				<reportElement key="staticText-13" x="696" y="3" width="50" height="15" uuid="d49f3d7e-7453-4759-a65d-f6c04844f86c"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textElement/>
 				<text><![CDATA[Halaman:]]></text>
 			</staticText>
 		</band>
@@ -267,18 +266,17 @@ Penjualan]]></text>
 	<detail>
 		<band height="15" splitType="Stretch">
 			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
-				<reportElement uuid="d8f51296-88a3-4229-a0ff-836df01a9a5b" key="textField-5" x="1" y="0" width="114" height="14"/>
+				<reportElement key="textField-5" x="1" y="0" width="114" height="14" uuid="d8f51296-88a3-4229-a0ff-836df01a9a5b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<textElement/>
 				<textFieldExpression><![CDATA[$F{category}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="edff8f36-20e0-4524-8272-2f16a759895f" key="textField-6" x="190" y="0" width="88" height="14"/>
+				<reportElement key="textField-6" x="190" y="0" width="88" height="14" uuid="edff8f36-20e0-4524-8272-2f16a759895f"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -286,10 +284,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{grossSale}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{grossSale})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="64192b3c-aa91-4ee1-bf82-548ac20f7bf6" key="textField-7" x="117" y="0" width="71" height="14"/>
+				<reportElement key="textField-7" x="117" y="0" width="71" height="14" uuid="64192b3c-aa91-4ee1-bf82-548ac20f7bf6"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -300,7 +298,7 @@ Penjualan]]></text>
 				<textFieldExpression><![CDATA[$F{count}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="5cca9077-1022-46ca-82b6-afbdfb1a3b71" key="textField-8" x="280" y="0" width="89" height="14"/>
+				<reportElement key="textField-8" x="280" y="0" width="89" height="14" uuid="5cca9077-1022-46ca-82b6-afbdfb1a3b71"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -308,10 +306,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{discount}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{discount})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="47e16599-cf52-4be2-9467-639eb99c9ee8" key="textField-9" x="371" y="0" width="90" height="14"/>
+				<reportElement key="textField-9" x="371" y="0" width="90" height="14" uuid="47e16599-cf52-4be2-9467-639eb99c9ee8"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -319,10 +317,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{netSale}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{netSale})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="c16dcd43-dd43-4fc5-9fc4-df53277d84dd" key="textField-10" x="463" y="0" width="87" height="14"/>
+				<reportElement key="textField-10" x="463" y="0" width="87" height="14" uuid="c16dcd43-dd43-4fc5-9fc4-df53277d84dd"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -330,10 +328,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{avgSale}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{avgSale})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="7076a7b2-7d7f-4b26-8ab7-5ff860746d25" key="textField-11" x="552" y="0" width="72" height="14"/>
+				<reportElement key="textField-11" x="552" y="0" width="72" height="14" uuid="7076a7b2-7d7f-4b26-8ab7-5ff860746d25"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -341,10 +339,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{profit}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{profit})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="3081994e-5a8a-4e86-9e8a-1685c080242c" key="textField-12" x="626" y="0" width="70" height="14"/>
+				<reportElement key="textField-12" x="626" y="0" width="70" height="14" uuid="3081994e-5a8a-4e86-9e8a-1685c080242c"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -352,10 +350,10 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{cost}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{cost})]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement uuid="6e82ea0d-86a2-4b63-b468-f02764195daa" key="textField-13" x="704" y="0" width="69" height="14"/>
+				<reportElement key="textField-13" x="704" y="0" width="69" height="14" uuid="6e82ea0d-86a2-4b63-b468-f02764195daa"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -363,7 +361,7 @@ Penjualan]]></text>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA[$F{percentage}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[com.pinpos.util.NumberUtil.formatNumber($F{percentage})]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

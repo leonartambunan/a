@@ -1,6 +1,7 @@
 package com.pinpos.model;
 
 import com.pinpos.POSConstants;
+import com.pinpos.config.AppConfig;
 import com.pinpos.main.Application;
 import com.pinpos.model.base.BaseTicket;
 import com.pinpos.util.NumberUtil;
@@ -197,7 +198,7 @@ public class Ticket extends BaseTicket {
     @Override
     public Integer getNumberOfGuests() {
         Integer guests = super.getNumberOfGuests();
-        if (guests == null || guests == 0) {
+        if (guests == null || guests == 0 || guests < 0) {
             return 1;
         }
         return guests;
@@ -218,7 +219,7 @@ public class Ticket extends BaseTicket {
             title += "#" + getId();
         }
         title += " Pelayan" + ": " + getOwner();
-        title += " Create on" + ":" + getCreateDateFormatted();
+        title += " Dibuat pada" + ":" + getCreateDateFormatted();
         title += " Total" + ": " + NumberUtil.formatToCurrency(getTotalAmount());
 
         return title;
@@ -257,15 +258,16 @@ public class Ticket extends BaseTicket {
         setDiscountAmount(discountAmount);
 
         double taxAmount = calculateTax();
+
         setTaxAmount(taxAmount);
 
         double serviceChargeAmount = calculateServiceCharge();
+
         double totalAmount;
 
         if (Application.getInstance().isPriceIncludesTax()) {
             totalAmount = subtotalAmount - discountAmount + serviceChargeAmount;
-        }
-        else {
+        } else {
             totalAmount = subtotalAmount - discountAmount + taxAmount + serviceChargeAmount;
         }
 
@@ -279,6 +281,7 @@ public class Ticket extends BaseTicket {
         setTotalAmount((totalAmount));
 
         double dueAmount = totalAmount - getPaidAmount();
+
         setDueAmount((dueAmount));
     }
 
@@ -461,31 +464,6 @@ public class Ticket extends BaseTicket {
 
         return false;
     }
-
-    //	public double calculateDefaultGratutity() {
-    //		if (!DINE_IN.equals(getTicketType())) {
-    //			return 0;
-    //		}
-    //
-    //		Restaurant restaurant = Application.getInstance().getRestaurant();
-    //		double defaultGratuityPercentage = restaurant.getDefaultGratuityPercentage();
-    //
-    //		if (defaultGratuityPercentage <= 0) {
-    //			return 0;
-    //		}
-    //
-    //		Gratuity gratuity = new Gratuity();
-    //		double tip = getDueAmount() * (defaultGratuityPercentage / 100.0);
-    //		gratuity.setAmount(tip);
-    //		gratuity.setOwner(getOwner());
-    //		gratuity.setPaid(false);
-    //		gratuity.setTicket(this);
-    //		gratuity.setTerminal(getTerminal());
-    //
-    //		setGratuity(gratuity);
-    //
-    //		return tip;
-    //	}
 
     public double calculateServiceCharge() {
         if (!DINE_IN.equals(getTicketType())) {

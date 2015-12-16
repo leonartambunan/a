@@ -116,7 +116,10 @@ public class CookingInstructionExplorer extends TransparentPanel {
 	}
 	
 	class CookingInstructionTableModel extends AbstractTableModel {
-		String[] columnNames = {POSConstants.ID, POSConstants.DESCRIPTION};
+		String[] columnNames = {
+				POSConstants.ID,
+				POSConstants.DESCRIPTION
+		};
 		
 		public int getRowCount() {
 			if(categoryList == null) {

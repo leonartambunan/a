@@ -6,6 +6,7 @@
 
 package com.pinpos.ui.model;
 
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.model.MenuModifier;
 import com.pinpos.model.MenuModifierGroup;
@@ -75,9 +76,9 @@ public class MenuModifierForm extends BeanEditor {
         cbModifierGroup = new javax.swing.JComboBox();
         btnPrintToKitchen = new javax.swing.JCheckBox();
 
-        jLabel2.setText(POSConstants.PRICE + ":");
+        jLabel2.setText(Messages.getString("Price") + ":");
 
-        jLabel1.setText(com.pinpos.POSConstants.NAME + ":");
+        jLabel1.setText(Messages.getString("Name") + ":");
 
         jLabel3.setText(com.pinpos.POSConstants.EXTRA_PRICE + ":");
 

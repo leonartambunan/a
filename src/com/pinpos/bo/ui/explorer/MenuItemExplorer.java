@@ -113,8 +113,14 @@ public class MenuItemExplorer extends TransparentPanel {
 	}
 	
 	class MenuItemExplorerTableModel extends ListTableModel {
-		String[] columnNames = { POSConstants.ID, POSConstants.NAME, POSConstants.PRICE + " (" + currencySymbol + ")",
-                POSConstants.VISIBLE, POSConstants.DISCOUNT + "(%)", com.pinpos.POSConstants.FOOD_GROUP, POSConstants.TAX + " (%)" }; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$
+		String[] columnNames = {
+				POSConstants.ID,
+                POSConstants.NAME,
+                POSConstants.PRICE + " (" + currencySymbol + ")",
+                POSConstants.VISIBLE,
+                POSConstants.DISCOUNT + "(%)",
+                com.pinpos.POSConstants.FOOD_GROUP,
+                POSConstants.TAX + " (%)" }; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$
 
 		MenuItemExplorerTableModel(){
 			setColumnNames(columnNames);
@@ -149,7 +155,7 @@ public class MenuItemExplorer extends TransparentPanel {
 					if (item.getTax() != null) {
 						return (item.getTax().getRate());
 					}
-					return ""; //$NON-NLS-1$
+					return "";
 
 			}
 			return null;

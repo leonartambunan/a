@@ -1,6 +1,7 @@
 package com.pinpos.report;
 
 import com.pinpos.bo.ui.explorer.ListTableModel;
+import com.pinpos.util.NumberUtil;
 
 import java.util.List;
 
@@ -146,27 +147,4 @@ public class SalesAnalysisReportModel extends ListTableModel {
 
 	}
 
-//	public static void main(String[] args) throws Exception {
-//		ArrayList list = new ArrayList();
-//
-//		SalesAnalysisData data = new SalesAnalysisData();
-//		data.setShiftName("SHIFT1");
-//		data.setCategoryName("C");
-//		list.add(data);
-//
-//		data = new SalesAnalysisData();
-//		data.setShiftName("SHIFT1");
-//		data.setCategoryName("C2");
-//		list.add(data);
-//
-//		data = new SalesAnalysisData();
-//		data.setShiftName("SHIFT2");
-//		data.setCategoryName("C");
-//		list.add(data);
-//
-//		JasperReport report = (JasperReport) JRLoader.loadObject(SalesAnalysisData.class.getResource("/com/pinpos/ui/report/sales_summary_report2.jasper"));
-//		JasperPrint print = JasperFillManager.fillReport(report, new HashMap(), new JRBeanCollectionDataSource(list));
-//
-//		JasperViewer.viewReport(print, true);
-//	}
 }

@@ -1,5 +1,6 @@
 package com.pinpos.services;
 
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.main.Application;
 import com.pinpos.model.*;
@@ -152,7 +153,7 @@ public class PosTransactionService {
                     .append(":")
                     .append(ticket.getId());
 //			actionMessage += ";" +  POSConstants.TOTAL + ":" + NumberUtil.formatNumber(ticket.getTotalAmount());
-			sb.append(";").append(POSConstants.TOTAL).append(":").append(NumberUtil.formatNumber(ticket.getTotalAmount()));
+			sb.append(";").append(Messages.getString("Total")).append(":").append(NumberUtil.formatNumber(ticket.getTotalAmount()));
 //			ActionHistoryDAO.getInstance().saveHistory(Application.getCurrentUser(), ActionHistory.SETTLE_CHECK, actionMessage);
 			ActionHistoryDAO.getInstance().saveHistory(Application.getCurrentUser(), ActionHistory.SETTLE_CHECK, sb.toString());
 		}

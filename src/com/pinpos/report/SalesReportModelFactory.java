@@ -62,6 +62,8 @@ public class SalesReportModelFactory {
 					reportItem.setName(ticketItem.getName());
 					reportItem.setTaxRate(ticketItem.getTaxRate());
 
+
+
 					itemMap.put(key, reportItem);
 				}
 				reportItem.setQuantity(ticketItem.getItemCount() + reportItem.getQuantity());
@@ -103,33 +105,6 @@ public class SalesReportModelFactory {
 		modifierReportModel.calculateGrandTotal();
 	}
 		
-	
-	
-//	public static void main(String[] args) throws Exception {
-//		SalesReportModelFactory factory = new SalesReportModelFactory();
-//		factory.createModels();
-//
-//		SalesReportModel itemReportModel = factory.getItemReportModel();
-//		SalesReportModel modifierReportModel = factory.getModifierReportModel();
-//
-//		JasperReport itemReport = (JasperReport) JRLoader.loadObject(SalesReportModelFactory.class.getResource("/com/pinpos/ui/report/SalesSubReport.jasper"));
-//		JasperReport modifierReport = (JasperReport) JRLoader.loadObject(SalesReportModelFactory.class.getResource("/com/pinpos/ui/report/SalesSubReport.jasper"));
-//
-//		HashMap map = new HashMap();
-//		map.put("itemDataSource", new  JRTableModelDataSource(itemReportModel));
-//		map.put("modifierDataSource", new  JRTableModelDataSource(modifierReportModel));
-//		map.put("currencySymbol", Application.getCurrencySymbol());
-//		map.put("itemGrandTotal", itemReportModel.getGrandTotalAsString());
-//		map.put("modifierGrandTotal", modifierReportModel.getGrandTotalAsString());
-//		map.put("itemReport", itemReport);
-//		map.put("modifierReport", modifierReport);
-//
-//		JasperReport masterReport = (JasperReport) JRLoader.loadObject(SalesReportModelFactory.class.getResource("/com/pinpos/ui/report/SalesReport.jasper"));
-//
-//		JasperPrint print = JasperFillManager.fillReport(masterReport, map, new JREmptyDataSource());
-//		JasperViewer.viewReport(print, false);
-//	}
-
 	public Date getEndDate() {
 		return endDate;
 	}

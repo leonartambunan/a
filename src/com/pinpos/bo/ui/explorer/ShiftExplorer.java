@@ -104,7 +104,8 @@ public class ShiftExplorer extends TransparentPanel {
 	class ShiftTableModel extends ListTableModel {
 		
 		ShiftTableModel(List list){
-			super(new String[] {com.pinpos.POSConstants.ID, com.pinpos.POSConstants.NAME, com.pinpos.POSConstants.START_TIME, com.pinpos.POSConstants.END_TIME}, list);
+			super(new String[] {com.pinpos.POSConstants.ID, com.pinpos.POSConstants.NAME,
+					com.pinpos.POSConstants.START_TIME, com.pinpos.POSConstants.END_TIME}, list);
 		}
 		
 

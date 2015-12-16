@@ -57,7 +57,7 @@ public class ReportService {
 
 			data.setRefId(ticket.getId());
 			data.setCardType(ticket.getCardType());
-			data.setSubtotal(ticket.getSubtotalAmount());
+			data.setSubtotal(ticket.getSubtotalAmount()+ticket.getTaxAmount()+ticket.getServiceCharge());
 			data.setTotal(ticket.getTotalAmount());
 
 			if (ticket.getGratuity() != null) {

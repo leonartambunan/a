@@ -30,15 +30,15 @@ public class CouponExplorer extends TransparentPanel implements ActionListener {
 		setLayout(new BorderLayout(5,5));
 		add(new JScrollPane(explorerView));
 		
-		JButton addButton = new JButton(com.pinpos.POSConstants.NEW);
+		JButton addButton = new JButton(com.pinpos.POSConstants.NEW.toUpperCase());
 		addButton.setActionCommand(com.pinpos.POSConstants.ADD);
 		addButton.addActionListener(this);
 		
-		JButton editButton = new JButton(com.pinpos.POSConstants.EDIT);
+		JButton editButton = new JButton(com.pinpos.POSConstants.EDIT.toUpperCase());
 		editButton.setActionCommand(com.pinpos.POSConstants.EDIT);
 		editButton.addActionListener(this);
 
-		JButton deleteButton = new JButton(com.pinpos.POSConstants.DELETE);
+		JButton deleteButton = new JButton(com.pinpos.POSConstants.DELETE.toUpperCase());
 		deleteButton.setActionCommand(com.pinpos.POSConstants.DELETE);
 		deleteButton.addActionListener(this);
 
@@ -99,7 +99,14 @@ public class CouponExplorer extends TransparentPanel implements ActionListener {
 	
 	private class CouponExplorerTableModel extends AbstractTableModel {
 
-		String[] columnNames = {POSConstants.NAME, POSConstants.COUPON_TYPE, POSConstants.COUPON_VALUE, POSConstants.EXPIRY_DATE, POSConstants.DISABLED, POSConstants.NEVER_EXPIRE};
+		String[] columnNames = {
+				POSConstants.NAME,
+				POSConstants.COUPON_TYPE,
+				POSConstants.COUPON_VALUE,
+				POSConstants.EXPIRY_DATE,
+				POSConstants.DISABLED,
+				POSConstants.NEVER_EXPIRE
+        };
 
         List<CouponAndDiscount> couponList;
 		

@@ -112,7 +112,10 @@ public class ModifierExplorer extends TransparentPanel {
 	}
 
 	class ModifierExplorerTableModel extends AbstractTableModel {
-		String[] columnNames = {POSConstants.ID, POSConstants.NAME, POSConstants.PRICE + " (" + currencySymbol + ")", com.pinpos.POSConstants.EXTRA_PRICE, POSConstants.TAX + "(%)", com.pinpos.POSConstants.MODIFIER_GROUP }; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+		String[] columnNames = {
+				POSConstants.ID,
+                POSConstants.NAME,
+                POSConstants.PRICE + " (" + currencySymbol + ")", com.pinpos.POSConstants.EXTRA_PRICE, POSConstants.TAX + "(%)", com.pinpos.POSConstants.MODIFIER_GROUP }; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
 
 		public int getRowCount() {
 			if (modifierList == null) {

@@ -106,7 +106,11 @@ public class CategoryExplorer extends TransparentPanel {
 	}
 	
 	class CategoryExplorerTableModel extends AbstractTableModel {
-		String[] columnNames = {POSConstants.ID, POSConstants.NAME, POSConstants.BEVERAGE, POSConstants.VISIBLE};
+		String[] columnNames = {
+				POSConstants.ID,
+				POSConstants.NAME,
+				POSConstants.BEVERAGE,
+				POSConstants.VISIBLE};
 		
 		public int getRowCount() {
 			if(categoryList == null) {

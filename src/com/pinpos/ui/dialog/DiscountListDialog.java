@@ -1,5 +1,6 @@
 package com.pinpos.ui.dialog;
 
+import com.pinpos.Messages;
 import com.pinpos.main.Application;
 import com.pinpos.model.CouponAndDiscount;
 import com.pinpos.model.Ticket;
@@ -37,6 +38,8 @@ public class DiscountListDialog extends POSDialog implements ActionListener {
 
     public DiscountListDialog(List<Ticket> tickets) {
         super(Application.getPosWindow(), true, false);
+
+        setTitle(Messages.getString("Discount.List"));
 
         this.tickets = tickets;
 
@@ -148,7 +151,7 @@ public class DiscountListDialog extends POSDialog implements ActionListener {
         btnDeleteSelected = new PosButton();
         btnDeleteSelected.setIcon(new ImageIcon(getClass().getResource("/images/delete_32.png")));
         btnDeleteSelected.setPreferredSize(new Dimension(140, 50));
-        btnDeleteSelected.setText("Delete Selected");
+        btnDeleteSelected.setText(Messages.getString("Delete.Selected"));
         panel2.add(btnDeleteSelected);
         buttonOK = new PosButton();
         buttonOK.setIcon(new ImageIcon(getClass().getResource("/images/finish_32.png")));

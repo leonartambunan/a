@@ -406,10 +406,6 @@ public abstract class BaseRestaurant  implements Comparable, Serializable {
         return armLinuxEnv;
     }
 
-    /**
-     * Set the value related to the column: PRICE_INCLUDES_TAX
-     * @param itemPriceIncludesTax the PRICE_INCLUDES_TAX value
-     */
     public void setItemPriceIncludesTax (java.lang.Boolean itemPriceIncludesTax) {
         this.itemPriceIncludesTax = itemPriceIncludesTax;
     }

@@ -1,6 +1,5 @@
 package com.pinpos.ui.dialog;
 
-import com.mysql.jdbc.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.config.AppConfig;
 import com.pinpos.main.Application;

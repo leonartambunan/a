@@ -27,8 +27,8 @@ import java.util.Date;
 import java.util.HashMap;
 
 public class CreditCardReportView extends JPanel {
-	private JXDatePicker fromDatePicker = UiUtil.getCurrentMonthStart();
-	private JXDatePicker toDatePicker = UiUtil.getCurrentMonthEnd();
+	private JXDatePicker fromDatePicker = UiUtil.getCurrentDate();
+	private JXDatePicker toDatePicker = UiUtil.getCurrentDate();
 	private JButton btnGo = new JButton(com.pinpos.POSConstants.GO);
 	private JPanel reportContainer;
 	

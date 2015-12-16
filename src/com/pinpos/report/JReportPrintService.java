@@ -1,5 +1,6 @@
 package com.pinpos.report;
 
+import com.pinpos.Messages;
 import com.pinpos.POSConstants;
 import com.pinpos.config.AppConfig;
 import com.pinpos.config.PrintConfig;
@@ -95,7 +96,7 @@ public class JReportPrintService {
 
         try {
 
-            TicketPrintProperties printProperties = new TicketPrintProperties("*** BUKTI PEMBAYARAN ***", true, true, true);
+            TicketPrintProperties printProperties = new TicketPrintProperties("*** "+Messages.getString("Receipt").toUpperCase()+ " ***", true, true, true);
 
             printProperties.setKitchenPrint(false);
 
@@ -153,7 +154,7 @@ public class JReportPrintService {
 
             try {
 
-                TicketPrintProperties printProperties = new TicketPrintProperties("*** BUKTI PEMBAYARAN ***", true, true, true);
+                TicketPrintProperties printProperties = new TicketPrintProperties("*** "+Messages.getString("Receipt")+" ***", true, true, true);
                 printProperties.setKitchenPrint(false);
                 printProperties.setPrintCookingInstructions(false);
 
@@ -199,7 +200,7 @@ public class JReportPrintService {
 
         try {
 
-            TicketPrintProperties printProperties = new TicketPrintProperties("*** BUKTI PEMBAYARAN ***", true, true, true);
+            TicketPrintProperties printProperties = new TicketPrintProperties("*** "+Messages.getString("Receipt").toUpperCase()+" ***", true, true, true);
 
             printProperties.setKitchenPrint(false);
 
@@ -348,7 +349,8 @@ public class JReportPrintService {
     }
 
     private static StringBuilder buildTicketHeader(Ticket ticket, TicketPrintProperties printProperties) {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("M/d/yy, h:m a");
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("d/M/yy, h:m a");
 
         StringBuilder ticketHeaderBuilder = new StringBuilder();
         ticketHeaderBuilder.append("<html>");
@@ -370,9 +372,9 @@ public class JReportPrintService {
             addColumn(ticketHeaderBuilder, POSConstants.RECEIPT_REPORT_TABLE_NO_LABEL + ticket.getTableNumber());
             endRow(ticketHeaderBuilder);
 
-            beginRow(ticketHeaderBuilder);
-            addColumn(ticketHeaderBuilder, POSConstants.RECEIPT_REPORT_GUEST_NO_LABEL + ticket.getNumberOfGuests());
-            endRow(ticketHeaderBuilder);
+            //beginRow(ticketHeaderBuilder);
+            //addColumn(ticketHeaderBuilder, POSConstants.RECEIPT_REPORT_GUEST_NO_LABEL + ticket.getNumberOfGuests());
+            //endRow(ticketHeaderBuilder);
         }
 
         beginRow(ticketHeaderBuilder);
@@ -394,7 +396,7 @@ public class JReportPrintService {
 
             if (customer != null) {
                 beginRow(ticketHeaderBuilder);
-                addColumn(ticketHeaderBuilder, "*Delivery to*");
+                addColumn(ticketHeaderBuilder, "*"+Messages.getString("Delivery.To")+"*");
                 endRow(ticketHeaderBuilder);
 
                 if (StringUtils.isNotEmpty(customer.getName())) {
@@ -452,7 +454,7 @@ public class JReportPrintService {
                 kitchenFile.createNewFile();
             }
 
-            TicketPrintProperties printProperties = new TicketPrintProperties("*** DAPUR ***", false, false, false);
+            TicketPrintProperties printProperties = new TicketPrintProperties("*** "+ Messages.getString("Kitchen").toUpperCase()+" ***", false, false, false);
             printProperties.setKitchenPrint(true);
 
             JasperPrint jasperPrintTXT = createTextReceipt(ticket, printProperties);
@@ -472,7 +474,7 @@ public class JReportPrintService {
 
         if (!Application.getInstance().isARMLinux()) {
             try {
-                TicketPrintProperties printProperties = new TicketPrintProperties("*** DAPUR ***", false, false, false);
+                TicketPrintProperties printProperties = new TicketPrintProperties("*** "+Messages.getString("Kitchen").toUpperCase()+" ***", false, false, false);
                 printProperties.setKitchenPrint(true);
                 JasperPrint jasperPrint = createPrint(ticket, printProperties);
                 jasperPrint.setName("KitchenReceipt");
